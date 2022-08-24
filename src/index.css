@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  overflow-x: hidden;
+  font-family: "Poppins",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +11,279 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.flex {
+  display: flex !important;;
+}
+.relative {
+  position: relative !important;;
+}
+
+.card-profile {
+  border: 1px solid black;
+}
+
+
+
+.absolute {
+  position: absolute !important;;
+}
+
+.r-0{
+  right: 0!important;
+}
+
+.r--20{
+  right: -20px !important;
+}
+
+.inherit{
+  color: inherit !important;
+}
+
+.items-center{
+  align-items: center !important;;
+}
+
+.justify-center{
+  justify-content: center !important;;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.icon-header {
+  margin-right: 10px;
+}
+
+.mobile {
+  display: none;
+}
+
+.login-container{
+  padding: 150px;
+}
+
+.register-container{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+.search-input {
+  width: 50%;
+}
+.padding-category{
+  padding: 0px 30px 30px 30px;
+}
+.padding-product-home{
+  padding: 30px;
+}
+
+.container-daftar-jual {
+  padding-left: 200px !important;
+  padding-right: 200px !important;
+  padding-bottom: 100px !important;
+  padding-top: 30px !important;
+}
+
+.img-nothing-product{
+  width: 500px;
+}
+
+.img-product-single{
+  height: 400px !important;
+  width: 600px !important;
+}
+
+.fixed{
+  position: fixed;
+}
+
+.jual-button{
+  bottom: 20px !important;
+  left: 45% !important;
+}
+
+@media screen and (max-width: 800px) {
+  .jual-button{
+    bottom: 20px !important;
+    left: 40% !important;
+  }
+  .img-product-single{
+    height: 400px !important;
+    width: 100vw !important;
+  }
+  .img-nothing-product{
+    width: 85vw;
+  }
+  .search-input {
+    width: 100%;
+  }
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none !important;
+  }
+  .login-container{
+    padding: 50px;
+  }
+  .register-container{
+    padding: 50px;
+  }
+  .mobile-footer-login{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 70vw;
+  }
+  .scroll-mobile {
+    margin: 4px, 4px;
+    padding: 4px;
+    padding-bottom: 20px;
+    width: 80vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  .padding-category{
+    padding: 0px 0px 30px 0px;
+  }
+  .padding-product-home{
+    padding: 0px;
+  }
+  .container-daftar-jual {
+    padding-left: 30px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-top: 30px !important;
+  }
+} 
+
+.container {
+  padding-left: 200px !important;
+  padding-right: 200px !important;
+  padding-bottom: 100px !important;
+  padding-top: 30px !important;
+}
+
+.MuiInputBase-root{
+  border-radius: 16px !important;
+}
+
+.mr-10 {
+  margin-right: 10px !important;
+}
+
+.pl-0{
+  padding-left: 0 !important;
+}
+
+.border-bottom{
+  border-bottom: 1px solid #ccc;
+  width: 90%;
+}
+
+.card-font-title{
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+.card-font-desc{
+  font-weight: 400 !important;
+  font-size: 10px !important;
+  line-height: 14px !important;
+}
+.card-font-price{
+  font-weight: 400 !important;
+  margin-top: 10px !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+.custom-button{
+  margin-right: 10px !important;
+  border-radius: 16px !important;
+  font-size: 14px !important;
+  padding: 12px 35px !important;
+  text-transform: none !important;
+}
+
+.text-transform-none {
+  text-transform: none !important;
+}
+
+.MuiPaper-root{
+  border-radius: 16px !important;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15) !important;
+}
+
+.Mui-selected{
+  background-color: #fff !important;
+  color: #7126B5 !important
+}
+
+a{text-decoration: none;}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.text-red-500{
+  font-size: small;
+  color: red !important;
+}
+
+.alert{
+  font-family: "Poppins",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  border-radius: 12px;
+  padding-left: 20px;
+  color: white
+}
+
+.alert div{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 50px;
+}
+
+.alert button{
+  display: none;
+}
+
+.dot-red{
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 20px;
+  background-color: red;
+}
+
+.dot-notif{
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  width: 8px;
+  height: 8px;
+  border-radius: 20px;
+  background-color: red;
+}
+
+.hover-list:hover{
+  background-color: #dfdfdf;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.MuiDrawer-paperAnchorLeft{
+  border-radius: 0px !important;
 }
