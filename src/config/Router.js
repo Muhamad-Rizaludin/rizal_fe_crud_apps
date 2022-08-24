@@ -1,7 +1,9 @@
 import HomeConfig from '../main/home/homeConfig';
+import UsersConfig from '../main/users/userConfig';
 
 const listRouter = [
-    ...HomeConfig
+    ...HomeConfig,
+    ...UsersConfig
 ]
 
 export default listRouter;

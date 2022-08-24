@@ -154,7 +154,7 @@ export default function HeaderPage() {
             </Grid>
             <Grid item xs={2} className={'desktop'}>
                 <div className='flex items-center'>
-                    {profile?.token ?
+                    {profile?.Token ?
                         <>
                             <div className='icon-header'>
                                 <IconButton onClick={handleClickUser}>
@@ -177,7 +177,7 @@ export default function HeaderPage() {
                                     <List>
                                         <ListItem disablePadding style={{ width: '150px' }}>
                                             <ListItemButton onClick={() => {
-                                                navigate('/users/profile/', { state: { profile: profile } })
+                                                navigate('#', { state: { profile: profile } })
                                             }}>
                                                 <ListItemIcon style={{ minWidth: '40px' }}>
                                                     <AssignmentIndIcon />
